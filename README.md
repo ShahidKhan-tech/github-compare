@@ -5,8 +5,6 @@ https://github-compare012.herokuapp.com/
 
 
 
-React App (React Fundamentals Course)
-
 <!---  LOGO   -->
 <div align="center">
 <p>
