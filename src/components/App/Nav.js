@@ -16,9 +16,9 @@ class Nav extends React.Component {
           </NavLink>
         </li>
         <li>
-          {/* <NavLink activeClassName="active" to="/popular">
+          {<NavLink activeClassName="active" to="/popular">
             Popular
-          </NavLink> */}
+          </NavLink>}
         </li>
         <li>
           <NavLink activeClassName="active" to="/search">
