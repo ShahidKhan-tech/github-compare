@@ -68,9 +68,9 @@ export function battle(players) {
 
 export function fetchPopularRepos(language) {
   var encodedURI = window.encodeURI(
-    'https://api.github.com/search/vabhishek-me?q=stars:>1+language:' +
+    'https://api.github.com/search/repositories?q=stars:>1+language:' +
       language +
-      '&sort=stars&order=desc&type=vabhishek-me'
+      '&sort=stars&order=desc&type=repos'
   );
   return axios.get(encodedURI).then(function(response) {
     return response.data.items;
